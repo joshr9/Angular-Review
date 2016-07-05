@@ -17,7 +17,7 @@ angular.module("todoListApp")
     //simulate communication
   }
 
-  this.saveTodo = function(todo){
-    console.log("The " + todo.name + " todo has been saved!")
+  this.saveTodos = function(todos){
+    console.log("The " + todos.name + " todo has been saved!")
   }
 })
